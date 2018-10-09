@@ -1,10 +1,12 @@
-# NoRun Preprocessor
+# Führe-Nicht-Aus Preprozessor
 
-The NoRun Preprocessor disables the script from being loaded COMPLETELY.
+Der Führe-Nicht-Aus Preprozessor deaktiviert das Skript und lässt es somit NICHT, laden.
 
-## Call
-You call the NoRun Preprocessor by adding `#norun` to your script file.
+## Aufrufen
 
-## What it does
-It completely disables the script it's added to from being loaded into the game.  
-Though `/ct syntax` will still show script issues in that file!
+Du kannst den Führe-Nicht-Aus Preprozessor aufrufen, in dem du `#norun` in dein Skript hinzufügst.
+
+## Was macht er
+
+Er hindert das Skript daran, in das Spiel geladen zu werden.
+Mit `/ct syntax`, kannst du weiterhin, Fehler des Skripts, einsehen!

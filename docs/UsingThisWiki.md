@@ -1,15 +1,15 @@
 # Das Wiki benutzen
 
 Dieses Wiki ist dafür gemacht um einen Überblick zu schaffen, welche Möglichkeiten in CraftTweaker existieren und wofür sie benutzt werden können.
-
 Es enthält zudem einige Beispiele für bestimmte Einträge um mehr Klarheit zu schaffen.
 
 # Bedingungen
+
 Bevor wir anfangen sind da ein paar Bedingungen die du dich gewöhnen solltest:
 
 ## ZenGetter
-Ein ZenGetter ist eine Möglichkeit um Informationen von bestimmten Objekten zu erhalten. Zum Beispiel hat [IItemStack](/Vanilla/Items/IItemStack/) einen ZenGetter der "displayName" genannt wird.
 
+Ein ZenGetter ist eine Möglichkeit um Informationen von bestimmten Objekten zu erhalten. Zum Beispiel hat [IItemStack](/Vanilla/Items/IItemStack/) einen ZenGetter der "displayName" genannt wird.
 Wir benutzen die ZenGetter wie folgt:
 ```
 //object.zenGetter;
@@ -19,9 +19,10 @@ Wir benutzen die ZenGetter wie folgt:
 Ein ZenGetter wird immer irgendwas zurückgeben, in diesem Fall einen String(Zeichenabfolge), der den Namen des Items repräsentiert ("Eisen Barren").
 
 ## ZenSetter
-Ein ZenSetter funktioniert ähnlich wie ein ZenGetter, der einzige Unterschied besteht darin, das ein ZenSetter etwas einsetzt, ein ZenGetter etwas zurückgibt.
 
-Lass uns bei dem [IItemStack](/Vanilla/Items/IItemStack/) bleiben, denn es existiert auch ein ZenSetter mit dem Namen "displayName". Wir wissen von dem Eintrag, das es sich hierbei um einen String handelt.  
+Ein ZenSetter funktioniert ähnlich wie ein ZenGetter, der einzige Unterschied besteht darin, das ein ZenSetter etwas einsetzt, ein ZenGetter etwas zurückgibt.
+Lass uns bei dem [IItemStack](/Vanilla/Items/IItemStack/) bleiben, denn es existiert auch ein ZenSetter mit dem Namen "displayName".
+Wir wissen von dem Eintrag, das es sich hierbei um einen String handelt.  
 
 Wir benutzen den ZenSetter etwa so:
 ```
@@ -35,7 +36,6 @@ Ein ZenSetter wird nie etwas zurückgben, da ist nur zum einsetzen, aber nicht f
 Wenn ein Item sowohl einen ZenGetter als auch einen ZenSetter mit dem selben Namen (z.B. [IItemStack's](/Vanilla/Items/IItemStack/) "displayName") hat, kannst du einen der Festlegenden Operatoren nutzen, die nicht `=` sind:
 
 Abhänging von der Art, kannst du folgende benutzen: `&=`, `|=`, `+=`, `-=`, `*=`, `/=`, `%=`, `~=`.
-
 Lass und mal schauen, was sie tun:
 
 ```

@@ -1,15 +1,18 @@
-# On Preprocessors
+# Alles über Preprozessor
 
-## What are preprocessors
-As the name suggests, preprocessors are executed before the script is executed.  
-They can perform various actions like enabling Debug Mode or Supress Bracket Errors.
+## Was sind Preprozessor
 
-## Calling a preprocessor
-A preprocessor can be called using the #comment function.  
-Be careful with the comments though as you might start one with a preprocessor keyword.  
+Wie der Name vermuten lässt, werden Preprozessoren ausgeführt, bevor das Skript ausgeführt wird.
+Sie können verschiedene Aktionen ausführen, zum Beispiel den Debug Modus aktiviern, oder Klammer-Fehler unterdrücken.
 
+## Einen Preprozessor aufrufen
+
+Ein Preprozessor kann mit der #Kommentar Funktion, aufgerufen werden.
+Sei also vorsichtig mit #Kommentaren, es könnte sein das du einen Preprozessor mit einem Schlüsselwort aufrufst! 
+
+Beispiel:
 ```JAVA
-#debug is my favorite word I like to add it everywhere as a comment
+#debug ist mein Lieblings Anglezismus, am liebsten würde ich ihn überall als Kommentar einfügen
 ```
 
-↑ Would enable debug mode as `#debug` is found. If you really want to ensure such a rare case doesn't happen, use `//` for comments.
+↑ Das würde den Debug Modus aktivieren da `#debug` gefunden wurde. Wenn du wirklich sichergehen möchtest, das ein solch seltener Fall passiert, benutze am besten `//` für Kommentare
