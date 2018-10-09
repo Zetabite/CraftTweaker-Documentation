@@ -1,4 +1,4 @@
-# CraftTweaker-Documentation
-Documentation for CraftTweaker
+# CraftTweaker-Dokumentation
+Die Dokumentation von CraftTweaker
 
-This is the source code for the documentation, you can find the actual site and documentation [here](http://docs.blamejared.com)
+Das ist der Source Code für die Dokumentation, die tatsächliche Webseite und Dokumentation kannst du [hier](http://docs.blamejared.com) finden.
